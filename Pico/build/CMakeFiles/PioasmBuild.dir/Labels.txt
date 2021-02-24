@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/PioasmBuild
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/PioasmBuild.rule
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/PioasmBuild-complete.rule
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
