@@ -143,19 +143,6 @@ ELF2UF2Build/fast:
 .PHONY : ELF2UF2Build/fast
 
 #=============================================================================
-# Target rules for targets named dma_capture_resistor_dac_pio_h
-
-# Build rule for target.
-dma_capture_resistor_dac_pio_h: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dma_capture_resistor_dac_pio_h
-.PHONY : dma_capture_resistor_dac_pio_h
-
-# fast build rule for target.
-dma_capture_resistor_dac_pio_h/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture_resistor_dac_pio_h.dir/build.make CMakeFiles/dma_capture_resistor_dac_pio_h.dir/build
-.PHONY : dma_capture_resistor_dac_pio_h/fast
-
-#=============================================================================
 # Target rules for targets named dma_capture
 
 # Build rule for target.
@@ -167,19 +154,6 @@ dma_capture: cmake_check_build_system
 dma_capture/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/build
 .PHONY : dma_capture/fast
-
-#=============================================================================
-# Target rules for targets named PioasmBuild
-
-# Build rule for target.
-PioasmBuild: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PioasmBuild
-.PHONY : PioasmBuild
-
-# fast build rule for target.
-PioasmBuild/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PioasmBuild.dir/build.make CMakeFiles/PioasmBuild.dir/build
-.PHONY : PioasmBuild/fast
 
 #=============================================================================
 # Target rules for targets named bs2_default_bin
@@ -1048,33 +1022,6 @@ Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_h
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
-
-# target to build an object file
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
-
-# target to preprocess a source file
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
-
-# target to generate assembly for a file
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-
 Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 .PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
@@ -1840,10 +1787,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ELF2UF2Build"
-	@echo "... PioasmBuild"
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default_padded_checksummed_asm"
-	@echo "... dma_capture_resistor_dac_pio_h"
 	@echo "... bs2_default"
 	@echo "... dma_capture"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
@@ -1938,9 +1883,6 @@ help:
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.i"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.s"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"

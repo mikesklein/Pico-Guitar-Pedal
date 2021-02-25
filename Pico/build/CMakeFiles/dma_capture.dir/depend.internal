@@ -1111,33 +1111,6 @@ CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
-CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/boards/include/boards/pico.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/common/pico_base/include/pico.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/common/pico_base/include/pico/config.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/common/pico_base/include/pico/error.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/common/pico_base/include/pico/types.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
- generated/pico_base/pico/config_autogen.h
- generated/pico_base/pico/version.h
 CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -1730,30 +1703,26 @@ CMakeFiles/dma_capture.dir/dma_capture.c.obj
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+ /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+ /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h
- /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h
+ /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
@@ -1763,6 +1732,5 @@ CMakeFiles/dma_capture.dir/dma_capture.c.obj
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
- resistor_dac.pio.h
 CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp

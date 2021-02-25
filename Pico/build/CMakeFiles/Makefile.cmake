@@ -13,7 +13,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.19.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.5/CMakeSystem.cmake"
   "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt.in"
-  "pioasm/tmp/PioasmBuild-cfgcmd.txt.in"
   "../pico_sdk_import.cmake"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/CMakeLists.txt"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/cmake/Platform/PICO.cmake"
@@ -97,7 +96,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/tools/CMakeLists.txt"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/tools/FindELF2UF2.cmake"
-  "/Users/mike/Documents/Programming/Pico/pico-sdk/tools/FindPioasm.cmake"
   "/usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/CMakeASMInformation.cmake"
   "/usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -128,7 +126,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "pioasm/tmp/PioasmBuild-cfgcmd.txt"
   "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -204,9 +201,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
-  "CMakeFiles/dma_capture_resistor_dac_pio_h.dir/DependInfo.cmake"
   "CMakeFiles/dma_capture.dir/DependInfo.cmake"
-  "CMakeFiles/PioasmBuild.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"

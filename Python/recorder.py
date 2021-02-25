@@ -5,14 +5,15 @@ import csv
 ser = serial.Serial('/dev/cu.usbmodem0000000000001',baudrate=115200, timeout=None)
 #ser.flushInput()
 music = []
-
+samples_per_second = 10000
+samples = 10
 print("Capturing")
 # for s in range(samples):
 #     ser.write("g".encode())
 #     ser_bytes = ser.readline()
 #     response.append(ser_bytes)
-ser.write("g".encode())
-for i in range(132300):
+
+for i in range(samples_per_second*samples):
     ser_bytes = ser.readline()
     # bytesToRead = ser.inWaiting()
     music.append(ser_bytes)

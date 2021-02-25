@@ -833,22 +833,9 @@ CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
 	/usr/local/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
-CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/dma_capture.dir/flags.make
-CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
-
-CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
-	/usr/local/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-
-CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
-	/usr/local/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-
 CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/dma_capture.dir/flags.make
 CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -926,7 +913,6 @@ dma_capture_OBJECTS = \
 "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" \
 "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
-"CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
 "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 
 # External object files for target dma_capture
@@ -997,12 +983,11 @@ dma_capture.elf: CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pic
 dma_capture.elf: CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 dma_capture.elf: CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 dma_capture.elf: CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-dma_capture.elf: CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 dma_capture.elf: CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 dma_capture.elf: CMakeFiles/dma_capture.dir/build.make
 dma_capture.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 dma_capture.elf: CMakeFiles/dma_capture.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Linking CXX executable dma_capture.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Linking CXX executable dma_capture.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dma_capture.dir/link.txt --verbose=$(VERBOSE)
 	/usr/local/bin/arm-none-eabi-objcopy -Oihex dma_capture.elf dma_capture.hex
 	/usr/local/bin/arm-none-eabi-objcopy -Obinary dma_capture.elf dma_capture.bin

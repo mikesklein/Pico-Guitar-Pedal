@@ -1,3 +1,0 @@
-/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pioasm/CMakeFiles/rebuild_cache.dir
-/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pioasm/CMakeFiles/edit_cache.dir
-/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pioasm/CMakeFiles/pioasm.dir

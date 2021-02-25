@@ -1,9 +1,7 @@
-/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/rebuild_cache.dir
 /Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/ELF2UF2Build.dir
-/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture_resistor_dac_pio_h.dir
-/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir
-/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/PioasmBuild.dir
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/rebuild_cache.dir
 /Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/edit_cache.dir
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir
 /Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pico-sdk/CMakeFiles/rebuild_cache.dir
 /Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pico-sdk/CMakeFiles/edit_cache.dir
 /Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/pico-sdk/tools/CMakeFiles/rebuild_cache.dir

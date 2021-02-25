@@ -38,10 +38,9 @@ if __name__ == "__main__":
         except ValueError:
             pass
 
-
     arr = numpy.array(data)
     arr /= numpy.max(numpy.abs(data))
     filename_head, extension = fname.rsplit(".", 1)
     data_resampled = resample(arr, len(data))
-    wavfile.write('rec.wav', 44100, data_resampled)
+    wavfile.write('rec.wav', 10000, data_resampled)
     print ("File written succesfully !")

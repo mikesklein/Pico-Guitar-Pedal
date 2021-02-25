@@ -10,14 +10,11 @@ add_executable(dma_capture
 
 pico_sdk_init()
 
-pico_generate_pio_header(dma_capture ${CMAKE_CURRENT_LIST_DIR}/resistor_dac.pio)
-
 target_link_libraries(dma_capture
 		pico_stdlib
 		hardware_adc
 		hardware_dma
 		# For the dummy output:
-		hardware_pio
 		pico_multicore
 		)
 
