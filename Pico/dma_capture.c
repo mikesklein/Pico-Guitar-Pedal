@@ -15,9 +15,6 @@
 #include "resistor_dac.pio.h"
 
 // This example uses the DMA to capture many samples from the ADC.
-//
-// - We are putting the ADC in free-running capture mode at 0.5 Msps
-//
 // - A DMA channel will be attached to the ADC sample FIFO
 //
 // - Configure the ADC to right-shift samples to 8 bits of significance, so we
@@ -35,15 +32,15 @@
 
 // Channel 0 is GPIO26
 #define CAPTURE_CHANNEL 0
-#define CAPTURE_DEPTH 44100
+#define CAPTURE_DEPTH 132300
 
 uint8_t capture_buf[CAPTURE_DEPTH];
 
 // void core1_main();
 
 int main() {
-    while(1){
-        stdio_init_all();
+
+ stdio_init_all();
 
         // Send core 1 off to start driving the "DAC" whilst we configure the ADC.
     // multicore_launch_core1(core1_main);
@@ -67,6 +64,10 @@ int main() {
         // cycles, so in general you want a divider of 0 (hold down the button
         // continuously) or > 95 (take samples less frequently than 96 cycle
         // intervals). This is all timed by the 48 MHz ADC clock.
+
+        //set the adc clock to 1008.4 for 44.1khz sample
+         //set the adc clock to 2179.87 for 22050hz sample
+         // 4800 10000
         adc_set_clkdiv(1008.4);
         sleep_ms(1000);
         // Set up the DMA to start transferring data as soon as it appears in FIFO
@@ -81,6 +82,9 @@ int main() {
         // Pace transfers based on availability of ADC samples
         channel_config_set_dreq(&cfg, DREQ_ADC);
 
+        
+
+    while(1){
         dma_channel_configure(dma_chan, &cfg,
             capture_buf,    // dst
             &adc_hw->fifo,  // src
@@ -92,18 +96,17 @@ int main() {
             adc_run(true);
             // Once DMA finishes, stop any new conversions from starting, and clean up
             // the FIFO in case the ADC was still mid-conversion.
-            dma_channel_wait_for_finish_blocking(dma_chan);
-            adc_run(false);
-            adc_fifo_drain();
-            printf("capture");
+        // dma_channel_wait_for_finish_blocking(dma_chan);
+            // adc_run(false);
+            // adc_fifo_drain();
             // Print samples to stdout so you can display them in pyplot, excel, matlab
             for (int i = 0; i < CAPTURE_DEPTH; ++i) {
-                printf("%-3d", capture_buf[i]);
-                printf("\n");
+                printf("%-3d\n", capture_buf[i]);
+                //if (i % 10 == 9)
+                // printf("\n");
             }
         }
-    }
-    
+    }  
 }
 
 // ----------------------------------------------------------------------------

@@ -423,10 +423,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/local/bin/arm-none-eabi-gcc-9.2.1"
 		},
 		{
@@ -1479,7 +1479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",

@@ -9,13 +9,11 @@ from scipy.signal import resample
 def write_wav(data, filename, framerate, amplitude):
     wavfile = wave.open(filename,'w')
     nchannels = 1
-    sampwidth = 0.38
     framerate = framerate
     nframes = len(data)
     comptype = "NONE"
     compname = "not compressed"
     wavfile.setparams((nchannels,
-                        sampwidth,
                         framerate,
                         nframes,
                         comptype,
