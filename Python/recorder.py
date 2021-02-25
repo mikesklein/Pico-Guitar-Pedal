@@ -33,8 +33,8 @@ def write_wav(data, filename, framerate, amplitude):
 ser = serial.Serial('/dev/cu.usbmodem0000000000001',baudrate=115200, timeout=None)
 #ser.flushInput()
 music = []
-sample_rate = 5000
-samples = 10
+sample_rate = 1000
+samples = 60
 print("Capturing")
 # for s in range(samples):
 #     ser.write("g".encode())
