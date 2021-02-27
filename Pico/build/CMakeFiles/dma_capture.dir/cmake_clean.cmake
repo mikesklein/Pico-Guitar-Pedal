@@ -1,9 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.obj"
-  "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio_utils.S.obj"
-  "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.obj"
-  "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.obj"
-  "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.obj"
   "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
   "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
   "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
@@ -34,7 +29,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
   "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
   "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-  "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj"
   "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
   "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
   "CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"

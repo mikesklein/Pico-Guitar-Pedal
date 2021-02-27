@@ -15,9 +15,13 @@ target_link_libraries(dma_capture
 		pico_stdlib
 		hardware_adc
 		hardware_dma
+		hardware_pwm
+		hardware_pio
+        hardware_timer
+        hardware_clocks
 		# For the dummy output:
 		pico_multicore
-		pico_audio_pwm
+		#pico_audio_pwm
 		)
 
 pico_enable_stdio_usb(dma_capture 1)

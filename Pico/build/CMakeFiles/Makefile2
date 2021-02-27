@@ -1894,12 +1894,12 @@ pico_extras/src/rp2_common/usb_device_msc/clean:
 CMakeFiles/ELF2UF2Build.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ELF2UF2Build.dir/build.make CMakeFiles/ELF2UF2Build.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ELF2UF2Build.dir/build.make CMakeFiles/ELF2UF2Build.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target ELF2UF2Build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target ELF2UF2Build"
 .PHONY : CMakeFiles/ELF2UF2Build.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ELF2UF2Build.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ELF2UF2Build.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" 0
 .PHONY : CMakeFiles/ELF2UF2Build.dir/rule
@@ -1920,15 +1920,14 @@ CMakeFiles/ELF2UF2Build.dir/clean:
 # All Build rule for target.
 CMakeFiles/dma_capture.dir/all: CMakeFiles/ELF2UF2Build.dir/all
 CMakeFiles/dma_capture.dir/all: pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
-CMakeFiles/dma_capture.dir/all: pico_extras/src/rp2_common/pico_audio_pwm/CMakeFiles/pico_audio_pwm_audio_pwm_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94 "Built target dma_capture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89 "Built target dma_capture"
 .PHONY : CMakeFiles/dma_capture.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dma_capture.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" 94
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" 80
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dma_capture.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" 0
 .PHONY : CMakeFiles/dma_capture.dir/rule
@@ -1950,7 +1949,7 @@ CMakeFiles/dma_capture.dir/clean:
 pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all: pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=18 "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=19 "Built target bs2_default_bin"
 .PHONY : pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1977,7 +1976,7 @@ pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/c
 pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all: pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=19,20 "Built target bs2_default_padded_checksummed_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=20,21 "Built target bs2_default_padded_checksummed_asm"
 .PHONY : pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2004,7 +2003,7 @@ pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_ch
 pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all:
 	$(MAKE) $(MAKESILENT) -f pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=16,17 "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=17,18 "Built target bs2_default"
 .PHONY : pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2031,7 +2030,7 @@ pico_extras/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/clean
 pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/all: pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/build.make pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/build.make pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=99 "Built target pico_scanvideo_scanvideo_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=94 "Built target pico_scanvideo_scanvideo_pio_h"
 .PHONY : pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2058,7 +2057,7 @@ pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.
 pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/all:
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/build.make pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/build.make pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=8,9,10,11,12,13,14,15 "Built target PioasmBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=9,10,11,12,13,14,15,16 "Built target PioasmBuild"
 .PHONY : pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2085,7 +2084,7 @@ pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/clean:
 pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/all: pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/build.make pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/build.make pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=95 "Built target pico_audio_i2s_audio_i2s_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=90 "Built target pico_audio_i2s_audio_i2s_pio_h"
 .PHONY : pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2112,7 +2111,7 @@ pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pi
 pico_extras/src/rp2_common/pico_audio_pwm/CMakeFiles/pico_audio_pwm_audio_pwm_pio_h.dir/all: pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_audio_pwm/CMakeFiles/pico_audio_pwm_audio_pwm_pio_h.dir/build.make pico_extras/src/rp2_common/pico_audio_pwm/CMakeFiles/pico_audio_pwm_audio_pwm_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_audio_pwm/CMakeFiles/pico_audio_pwm_audio_pwm_pio_h.dir/build.make pico_extras/src/rp2_common/pico_audio_pwm/CMakeFiles/pico_audio_pwm_audio_pwm_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=96 "Built target pico_audio_pwm_audio_pwm_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=91 "Built target pico_audio_pwm_audio_pwm_pio_h"
 .PHONY : pico_extras/src/rp2_common/pico_audio_pwm/CMakeFiles/pico_audio_pwm_audio_pwm_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2139,7 +2138,7 @@ pico_extras/src/rp2_common/pico_audio_pwm/CMakeFiles/pico_audio_pwm_audio_pwm_pi
 pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/all: pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/build.make pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/build.make pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=97 "Built target pico_audio_spdif_audio_spdif_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=92 "Built target pico_audio_spdif_audio_spdif_pio_h"
 .PHONY : pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2166,7 +2165,7 @@ pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_sp
 pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/all: pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/build.make pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/build.make pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=100 "Built target pico_sd_card_sd_card_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=95 "Built target pico_sd_card_sd_card_pio_h"
 .PHONY : pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2193,7 +2192,7 @@ pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.di
 pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/all: pico_extras/src/common/pico_scanvideo/CMakeFiles/PioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build.make pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build.make pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=98 "Built target pico_scanvideo_dpi_timing_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles" --progress-num=93 "Built target pico_scanvideo_dpi_timing_pio_h"
 .PHONY : pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/all
 
 # Build rule for subdir invocation for target.

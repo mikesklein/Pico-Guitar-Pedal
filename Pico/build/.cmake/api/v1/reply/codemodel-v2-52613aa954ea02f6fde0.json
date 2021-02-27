@@ -1186,7 +1186,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ELF2UF2Build-Debug-833880300ddfbecd7d54.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-278f8a4dc2913b41c8a8.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
@@ -1221,7 +1221,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "dma_capture::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-dma_capture-Debug-52537daab244ed2f325a.json",
+					"jsonFile" : "target-dma_capture-Debug-dd13cc3ae86e84dfef87.json",
 					"name" : "dma_capture",
 					"projectIndex" : 0
 				},

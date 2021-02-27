@@ -19,34 +19,10 @@ pico/multicore.h
 /Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/pico/multicore.h
 hardware/irq.h
 /Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/hardware/irq.h
-pico/audio_pwm.h
-/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/pico/audio_pwm.h
-math.h
--
-
-/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/include/pico/audio.h
-pico.h
-/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/include/pico/pico.h
-pico/util/buffer.h
-/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/include/pico/pico/util/buffer.h
+hardware/pwm.h
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/hardware/pwm.h
 hardware/sync.h
-/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/include/pico/hardware/sync.h
-
-/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/include/pico/util/buffer.h
-pico/types.h
-/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/include/pico/util/pico/types.h
-hardware/address_mapped.h
-/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/include/pico/util/hardware/address_mapped.h
-stdio.h
--
-stdlib.h
--
-hardware/structs/usb.h
-/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/include/pico/util/hardware/structs/usb.h
-
-/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/include/pico/audio_pwm.h
-pico/audio.h
-/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/include/pico/pico/audio.h
+/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/hardware/sync.h
 
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/boards/include/boards/pico.h
 
@@ -154,13 +130,13 @@ hardware/regs/addressmap.h
 
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 
+/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h
+
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
-
-/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h
 
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h
 hardware/address_mapped.h
@@ -192,6 +168,14 @@ hardware/platform_defs.h
 hardware/regs/pads_bank0.h
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/pads_bank0.h
 
+/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h
+hardware/address_mapped.h
+/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/platform_defs.h
+/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/platform_defs.h
+hardware/regs/pwm.h
+/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/pwm.h
+
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
 hardware/address_mapped.h
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
@@ -213,12 +197,6 @@ hardware/address_mapped.h
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
 hardware/regs/uart.h
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/uart.h
-
-/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h
-hardware/address_mapped.h
-/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
-hardware/regs/usb.h
-/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/usb.h
 
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h
 pico.h
@@ -259,6 +237,12 @@ hardware/regs/intctrl.h
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/hardware/regs/intctrl.h
 hardware/regs/m0plus.h
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/hardware/regs/m0plus.h
+
+/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h
+pico.h
+/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pico.h
+hardware/structs/pwm.h
+/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/hardware/structs/pwm.h
 
 /Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
 pico.h

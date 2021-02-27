@@ -285,123 +285,6 @@ pico_scanvideo_dpi_timing_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build.make pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build
 .PHONY : pico_scanvideo_dpi_timing_pio_h/fast
 
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.obj: Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.obj
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.obj
-
-# target to build an object file
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.obj
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.obj
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.i: Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.i
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.i
-
-# target to preprocess a source file
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.i
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.i
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.s: Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.s
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.s
-
-# target to generate assembly for a file
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.s
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.s
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio_utils.obj: Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio_utils.S.obj
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio_utils.obj
-
-# target to build an object file
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio_utils.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio_utils.S.obj
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio_utils.S.obj
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.obj: Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.obj
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.obj
-
-# target to build an object file
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.obj
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.obj
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.i: Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.i
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.i
-
-# target to preprocess a source file
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.i
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.i
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.s: Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.s
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.s
-
-# target to generate assembly for a file
-Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.s
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.s
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.obj: Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.obj
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.obj
-
-# target to build an object file
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.obj
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.obj
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.i: Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.i
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.i
-
-# target to preprocess a source file
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.i
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.i
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.s: Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.s
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.s
-
-# target to generate assembly for a file
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.s
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.s
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.obj: Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.obj
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.obj
-
-# target to build an object file
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.obj
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.obj
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.i: Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.i
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.i
-
-# target to preprocess a source file
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.i
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.i
-
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.s: Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.s
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.s
-
-# target to generate assembly for a file
-Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.s
-.PHONY : Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.s
-
 Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 .PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
@@ -1193,33 +1076,6 @@ Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio
 Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.obj: Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.obj
-
-# target to build an object file
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj
-
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.i: Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.i
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.i
-
-# target to preprocess a source file
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.i
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.i
-
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.s: Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.s
-
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.s
-
-# target to generate assembly for a file
-Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dma_capture.dir/build.make CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.s
-.PHONY : Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.s
 
 Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
@@ -2060,19 +1916,6 @@ help:
 	@echo "... pico_sd_card_sd_card_pio_h"
 	@echo "... bs2_default"
 	@echo "... dma_capture"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.obj"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.i"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.s"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio_utils.obj"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.obj"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.i"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.s"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.obj"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.i"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.s"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.obj"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.i"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.s"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2161,9 +2004,6 @@ help:
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.obj"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.i"
-	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.s"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
