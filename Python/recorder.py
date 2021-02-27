@@ -8,6 +8,12 @@ from scipy.io import wavfile
 from scipy.signal import resample
 
 
+ser = serial.Serial('/dev/cu.usbmodem0000000000001',baudrate=115200, timeout=None)
+#ser.flushInput()
+music = []
+sample_rate = 50000
+samples = 3
+
 def write_wav(data, filename, framerate, amplitude):
     wavfile = wave.open(filename,'w')
     nchannels = 1
@@ -30,18 +36,14 @@ def write_wav(data, filename, framerate, amplitude):
     wavfile.close()
     print("%s written" %(filename))
 
-ser = serial.Serial('/dev/cu.usbmodem0000000000001',baudrate=115200, timeout=None)
-#ser.flushInput()
-music = []
-sample_rate = 1000
-samples = 60
+
 print("Capturing")
 # for s in range(samples):
 #     ser.write("g".encode())
 #     ser_bytes = ser.readline()
 #     response.append(ser_bytes)
-
 for i in range(sample_rate*samples):
+    ser.write("A".encode())
     ser_bytes = ser.readline()
     # bytesToRead = ser.inWaiting()
     music.append(ser_bytes)

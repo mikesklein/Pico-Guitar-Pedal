@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio_utils.S" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio_utils.S.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
@@ -32,6 +33,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
   "PICO_DIVIDER_HARDWARE=1"
   "PICO_DOUBLE_PICO=1"
+  "PICO_EXTRAS=1"
   "PICO_FLOAT_PICO=1"
   "PICO_INT64_OPS_PICO=1"
   "PICO_MEM_OPS_PICO=1"
@@ -89,8 +91,16 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/include"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/include"
+  "pico_extras/src/rp2_common/pico_audio_pwm"
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/include"
+  "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/include"
+  "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/include"
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/include"
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/buffer.c.obj"
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/audio_pwm.c.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
@@ -120,7 +130,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+  "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+  "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
@@ -161,6 +173,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
   "PICO_DIVIDER_HARDWARE=1"
   "PICO_DOUBLE_PICO=1"
+  "PICO_EXTRAS=1"
   "PICO_FLOAT_PICO=1"
   "PICO_INT64_OPS_PICO=1"
   "PICO_MEM_OPS_PICO=1"
@@ -218,8 +231,16 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/include"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/include"
+  "pico_extras/src/rp2_common/pico_audio_pwm"
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/include"
+  "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/include"
+  "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/include"
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/include"
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/audio.cpp.obj"
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/sample_encoding.cpp.obj"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "/Users/mike/Documents/Programming/Pico/Guitar Pedal/Pico/build/CMakeFiles/dma_capture.dir/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -237,6 +258,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
   "PICO_DIVIDER_HARDWARE=1"
   "PICO_DOUBLE_PICO=1"
+  "PICO_EXTRAS=1"
   "PICO_FLOAT_PICO=1"
   "PICO_INT64_OPS_PICO=1"
   "PICO_MEM_OPS_PICO=1"
@@ -294,6 +316,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_dma/include"
   "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/pico_multicore/include"
+  "pico_extras/src/rp2_common/pico_audio_pwm"
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/rp2_common/pico_audio_pwm/include"
+  "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_pio/include"
+  "/Users/mike/Documents/Programming/Pico/pico-sdk/src/rp2_common/hardware_interp/include"
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_audio/include"
+  "/Users/mike/Documents/Programming/Pico/pico-extras/src/common/pico_util_buffer/include"
   )
 
 # Targets to which this target links.
