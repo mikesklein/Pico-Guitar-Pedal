@@ -13,48 +13,19 @@
 #define CAPTURE_CHANNEL 0
 #define AUDIO_PIN 0
 #define NSAMP 1
-#define CLOCK_DIV 1008
+#define CLOCK_DIV 2000
+//44000 ADC
 
-// #define CAPTURE_DEPTH 132300
 
-// uint8_t capture_buf[CAPTURE_DEPTH];
-const uint LED_PIN = 16;
+const uint LED_PIN = 25;
 
 void core1_main();
 uint8_t capture_buf[NSAMP];
 
-
-// void sample(uint8_t *capture_buf) {
-//     adc_fifo_drain();
-//     adc_run(false);
-
-//     dma_channel_configure(dma_chan, &cfg,
-//         capture_buf, // dst
-//         &adc_hw->fifo, // src
-//         NSAMP, // transfer count
-//         true // start immediately
-//     );
-
-//     gpio_put(LED_PIN, 1);
-//     adc_run(true);
-//     dma_channel_wait_for_finish_blocking(dma_chan);
-//     gpio_put(LED_PIN, 0);
-// }
-
-
-
-// bool read_adc_timer(struct repeating_timer *t) {
-//     uint16_t result = adc_read();
-    // if (multicore_fifo_wready){
-    //     multicore_fifo_push_blocking(result);
-    // }
-//     return true;
-// }
-
-
-
 int main() {
     stdio_init_all();
+
+    set_sys_clock_khz(176000, true); 
 
     multicore_launch_core1(core1_main);
 
@@ -99,25 +70,22 @@ int main() {
         true            // start immediately
       );
 
-      gpio_put(LED_PIN, 1);
       adc_run(true);
 
       uint64_t start_time = time_us_64();
       dma_channel_wait_for_finish_blocking(dma_chan);
       uint64_t end_time = time_us_64();
-      gpio_put(LED_PIN, 0);
       
       uint64_t time_diff_us = end_time-start_time;
       float sample_time = time_diff_us/1e6;
       
-    //   printf("us: %llu | Total Time: %f s\n", time_diff_us, sample_time);
-    //   printf("Sample Rate: %0.1f Hz\n", NSAMP/(sample_time));
-      for(int i=0; i < NSAMP; i++){
+    //printf("us: %llu | Total Time: %f s\n", time_diff_us, sample_time);
+    //("Sample Rate: %0.1f Hz\n", NSAMP/(sample_time));
+    for(int i=0; i < NSAMP; i++){
         if (multicore_fifo_wready){
             multicore_fifo_push_blocking(capture_buf[i]);
         }
-
-      }
+    }
     }
 }
 
@@ -127,7 +95,6 @@ void pwm_interrupt_handler() {
     pwm_clear_irq(pwm_gpio_to_slice_num(AUDIO_PIN)); 
 
     while (multicore_fifo_rvalid()){
-         
          uint16_t raw = multicore_fifo_pop_blocking();
          pwm_set_gpio_level(AUDIO_PIN, raw);  
     }   
@@ -160,7 +127,7 @@ void core1_main() {
      *  4.0f for 22 KHz
      *  2.0f for 44 KHz etc
      */
-    pwm_config_set_clkdiv(&config, 8.0f); 
+    pwm_config_set_clkdiv(&config, 16.0f); 
     pwm_config_set_wrap(&config, 250); 
     pwm_init(audio_pin_slice, &config, true);
 
